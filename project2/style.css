@@ -1,0 +1,63 @@
+h1 {
+text-align: center;
+font-size: 100px;
+letter-spacing: 15px;
+font-family: courier;
+}
+body {
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: center;
+	background-color: LightSteelBlue;
+}
+h2 {
+	text-align: center;
+	font-size: 60px;
+	font-family: Impact;
+}
+.grid {
+  border: 2px black solid;
+  width: 600px;
+  height: 500px;
+  display: grid;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: Century Gothic;
+  padding: 10px;
+}
+a {
+	font-size: 20px;
+	text-align: left;
+	font-family: courier;
+}
+img {
+	width: 400px;
+}
+h3 {
+	font-size: 25px;
+	font-family: arial;
+}
+p {
+	color: black;
+	font-size: 25px;
+}
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
